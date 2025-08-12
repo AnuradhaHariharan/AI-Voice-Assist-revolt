@@ -73,18 +73,6 @@ p {
     min-height: 20px;
 }
 
-#talkButton {
-    background-color: #e4e6eb;
-    border: none;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 0.3s, transform 0.2s;
-}
 
 #talkButton:hover {
     background-color: #dcdde1;
