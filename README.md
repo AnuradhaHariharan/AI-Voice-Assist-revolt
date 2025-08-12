@@ -22,3 +22,4 @@ The app will now be running and accessible at http://localhost:3000 in your web 
 
 ## Demo ##
 [Google Drive link](https://drive.google.com/file/d/18xua5u3RcYeM6mb1HpgEdxwdem-82ASN/view?usp=sharing) 
+<img width="1296" height="810" alt="Screenshot 2025-08-12 at 3 55 41 PM" src="https://github.com/user-attachments/assets/f86c688e-0366-4dae-b407-c24ceb782135" />
