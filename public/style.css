@@ -7,8 +7,8 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 1rem;
-    background-color: var(--bg-color-light);
-    color: var(--text-color-light);
+    background-color: black;
+    color: #e9ecef;
     transition: background-color 0.3s, color 0.3s;
     box-sizing: border-box;
 }
@@ -18,14 +18,48 @@ body {
     background: black;
     padding: 40px;
     width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 50px;
+    height: auto;
+    transition: filter 0.3s;
+    filter: invert(1) brightness(2);
 }
 
 h1 {
+    margin: 0px;
+    color: rgb(233, 236, 239);
     font-size: 2.5rem;
-    color: #000;
-    margin-bottom: 5px;
+    font-weight: 600;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.mic-button {
+    width: 72px;
+    height: 72px;
+    background-color: rgb(41, 121, 255);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s, transform 0.2s;
+    box-shadow: rgba(41, 121, 255, 0.4) 0px 4px 12px;
+}
 p {
     color: #606770;
     font-size: 1.1rem;
